@@ -1,3 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 CLEAN_REFIT_081116.zip filter=lfs diff=lfs merge=lfs -text
+CLEAN_REFIT_081116/**/*.csv filter=lfs diff=lfs merge=lfs -text
+CLEAN_REFIT_081116/**/*.tsv filter=lfs diff=lfs merge=lfs -text
+CLEAN_REFIT_081116/**/*.txt filter=lfs diff=lfs merge=lfs -text
